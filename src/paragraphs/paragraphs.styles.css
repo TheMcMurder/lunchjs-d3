@@ -1,0 +1,43 @@
+.Palpatine {
+	background-image: url('./palpatine.png');
+	background-size: cover;
+}
+
+.Anakin {
+	background-image: url(./anakin.png);
+	background-size: cover;
+}
+
+.DarthVader {
+	background-image: url(./vader.png);
+	background-size: cover;
+}
+
+.speaker {
+	min-width: 80px;
+	min-height: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.bigText {
+	font-size: 20px;
+}
+
+.messageText {
+	padding: 15px;
+}
+
+.incoming {
+	flex-direction: row-reverse;
+}
+
+.message {
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
